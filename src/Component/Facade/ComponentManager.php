@@ -4,7 +4,6 @@ namespace MonkBlog\Component\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
-
 class ComponentManager extends Facade
 {
     /**

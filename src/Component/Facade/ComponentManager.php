@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: eric
- * Date: 1/9/16
- * Time: 5:53 PM
- */
 
 namespace MonkBlog\Component\Facade;
 

@@ -1,0 +1,19 @@
+engines:
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+      ignore_warnings: true
+  fixme:
+    enabled: true
+ratings:
+  paths:
+    - "src/**.php"
+exclude_paths:
+- "helpers.php"
+- "phpunit.php"
+- "src/Component/config/**/*"
+- "src/Component/ServiceProvider.php"
+- "src/Component/Facade/**/*"
+- "tests/**/*"
+- "vendor/**/*"

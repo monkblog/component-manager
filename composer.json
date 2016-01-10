@@ -1,0 +1,38 @@
+{
+    "name": "monkblog/component-manager",
+    "description": "A simple component manager",
+    "keywords": ["laravel", "monk", "monkblog", "component", "components", "component manager", "simple", "simple component manager", "manager"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Eric Dowell",
+        "email": "eric@ericodwell.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/yaml": "3.*",
+        "laravel/framework": "5.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9.1",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "MonkBlog\\Component\\": "src/Component/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

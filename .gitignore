@@ -1,0 +1,38 @@
+## Mac OS X
+.DS_Store
+
+## Windows
+Thumbs.db
+
+## EMACS
+*~
+\#*
+.\#*
+
+## VIM
+*.swp
+*.swo
+
+# PHPStorm
+.idea/
+
+## PHPDoc files
+*.ini
+
+## Composer
+composer.phar
+composer.lock
+vendor/
+
+## Clover XML
+/build
+
+## npm/Node
+node_modules/
+npm-debug.log
+
+## Bower
+bower_components/
+
+## SASS
+.sass-cache
